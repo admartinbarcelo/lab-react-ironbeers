@@ -1,14 +1,13 @@
-import { Link } from 'react-router-dom';
+import { Link } from "react-router-dom";
+import home from "../assets/home.png";
 
 function Header() {
   return (
     <header>
       <nav>
-        <ul>
-          <li>
-            <Link to="/">Home</Link>
-          </li>
-        </ul>
+        <Link to="/">
+          <img src={home} alt="header" />
+        </Link>
       </nav>
     </header>
   );

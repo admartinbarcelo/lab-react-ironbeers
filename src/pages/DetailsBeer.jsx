@@ -20,7 +20,7 @@ function DetailsBeer() {
     <>
     <Header/>
     <div className="card mb-3">
-      <img src={beer.image_url} className="card-img-top" alt={beer.title} />
+      <img src={beer.image_url} className="card-img-top mx-auto" alt={beer.title}  style={{ width: "200px", height: "500px" }}/>
       <div className="card-body">
         <h5 className="card-title">Name: {beer.name}</h5>
         <p className="card-text">{beer.tagline}</p>
